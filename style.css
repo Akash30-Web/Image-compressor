@@ -1,0 +1,77 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8faff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  color: #2d8cff;
+  margin-bottom: 0;
+}
+.subhead {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.upload-box {
+  margin: 20px 0;
+}
+.upload-label {
+  background: #2d8cff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+input[type="file"] {
+  display: none;
+}
+.image-box {
+  display: inline-block;
+  width: 45%;
+  margin: 10px;
+}
+.image-box img, canvas {
+  max-width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+}
+.meter-box {
+  margin-top: 20px;
+}
+.meter {
+  background: #eee;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.meter span {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: #4caf50;
+  transition: width 0.5s ease-in-out;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+footer {
+  margin-top: 40px;
+  font-size: 0.8rem;
+}
+.hidden {
+  display: none;
+}
